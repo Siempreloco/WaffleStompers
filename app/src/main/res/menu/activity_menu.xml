@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:appNs="http://schemas.android.com/apk/res-auto">
+        <item   android:id="@+id/schedule"
+                android:title="Schedule"
+                android:actionLayout="@layout/activity_schedule"
+                appNs:showAsAction="always" />
+        <item   android:id="@+id/standings"
+                android:title="Standings"
+                android:actionLayout="@layout/activity_standings"
+                appNs:showAsAction="always" />
+        <item   android:id="@+id/stats"
+                android:title="Stats"
+                android1:actionLayout="@layout/activity_stats"
+                appNs:showAsAction="always" />
+
+</menu>
+
+
